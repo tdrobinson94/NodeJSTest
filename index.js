@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
      host: 'pcadbinstance.cfnr5txp4upk.us-east-2.rds.amazonaws.com',
      user: 'pcauser',
      password: 'Jasmine12#',
-     database: 'Miranda Code'
+     database: 'pcauser'
 })
 
 connection.connect( (error) => {
